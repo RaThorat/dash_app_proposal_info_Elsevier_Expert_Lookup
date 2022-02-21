@@ -1,0 +1,1 @@
+Dossiernummer,Hoofdaanvrager,Hoofdaanvrager_Achternaam,Voornaam,Geslacht,Promotiedatum,C_Email,Correspondentietaal,HoofdOrganisatie,C_Organisatie,C_Postcode,C_Plaats,Titel,Samenvatting,Hoofddiscipline,Subdiscipline,Woord,SubsidieRonde_Naam,atl_Ingetrokken,atl_Gehonoreerd
