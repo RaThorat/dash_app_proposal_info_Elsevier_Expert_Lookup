@@ -20,7 +20,7 @@ import datetime
 import io
 from dash import dash_table
 
-
+#Dash Layout
 
 
 external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
@@ -49,7 +49,7 @@ app.layout = html.Div([
     ),
     html.Div(id='output-data-upload'),
 ])
-
+#Function to convert input data into Expert Lookup format
 def parse_contents(contents, filename, date):
     content_type, content_string = contents.split(',')
 
@@ -151,6 +151,7 @@ def parse_contents(contents, filename, date):
             'wordBreak': 'break-all'
         })
     ])
+#App callback and decorator
 
 @app.callback(Output('output-data-upload', 'children'),
               Input('upload-data', 'contents'),
